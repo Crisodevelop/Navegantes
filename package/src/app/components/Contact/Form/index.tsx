@@ -12,7 +12,7 @@ const ContactButtons = () => {
 
         <div className='flex justify-center gap-6'>
           <a
-            href='https://instagram.com/tuusuario'
+            href='https://www.instagram.com/navegantesrestobar/'
             target='_blank'
             rel='noopener noreferrer'
             className='flex items-center gap-2 px-6 py-3 border border-gray-300 text-gray-700 rounded-full shadow-sm hover:shadow-md hover:border-pink-500 hover:text-pink-600 transition duration-300'>
@@ -21,7 +21,7 @@ const ContactButtons = () => {
           </a>
 
           <a
-            href='https://wa.me/1234567890'
+            href='https://wa.link/96w8rb'
             target='_blank'
             rel='noopener noreferrer'
             className='flex items-center gap-2 px-6 py-3 border border-gray-300 text-gray-700 rounded-full shadow-sm hover:shadow-md hover:border-green-500 hover:text-green-600 transition duration-300'>

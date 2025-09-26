@@ -21,7 +21,7 @@ const Hero = () => {
                   Ver Menú
                 </button>
               </Link>
-              <Link href='/#reserve'>
+              <Link href='/#reservar'>
                 <button className='text-xl border border-primary rounded-full font-medium py-3 px-8 text-primary hover:text-white hover:bg-primary hover:cursor-pointer transition ease-in-out duration-300'>
                   Reservar Ahora
                 </button>

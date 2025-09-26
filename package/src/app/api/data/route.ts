@@ -125,7 +125,7 @@ const FooterLinkData: FooterLinkType[] = [
       { label: 'Inicio', href: '/' },
       { label: 'Nosotros', href: '/#aboutus' },
       { label: 'Menu', href: '/#menu' },
-      { label: 'Reservar', href: '/#resevar' },
+      { label: 'Reservar', href: '/#reservar' },
     ],
   },
   {
