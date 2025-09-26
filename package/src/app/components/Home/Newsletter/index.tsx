@@ -53,7 +53,7 @@ const Newsletter = () => {
             </div>
             <div className='absolute top-[78%]'>
               <Image
-                src={'/images/Newsletter/onion.webp'}
+                src={'/images/Newsletter/onions.webp'}
                 alt='onion-image'
                 width={300}
                 height={122}
