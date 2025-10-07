@@ -72,11 +72,12 @@ const Gallery = () => {
                       <p className='text-white lg:text-2xl text-xl'>
                         $ {item.price}
                       </p>
-                      <Link
-                        href='#ver-menu-completo'
+                      <button
+                           // onClick={openMenu}
+            onClick={() => window.open("/images/menu-naveganterestobar.pdf", "_blank")}
                         className='text-white rounded-full bg-primary border duration-300 border-primary py-2 lg:px-6 md:px-4 px-3 hover:bg-primary/40 hover:backdrop-blur-xs md:text-base text-sm'>
                         Ver menú completo                        
-                        </Link>
+                        </button>
                     </div>
                   </div>
                 </div>

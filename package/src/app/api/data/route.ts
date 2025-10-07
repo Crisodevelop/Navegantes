@@ -8,7 +8,7 @@ import { FooterLinkType } from '@/app/types/footerlink'
 import { FullMenuType } from '@/app/types/fullmenu'
 
 const HeaderData: HeaderItem[] = [
-  { label: 'Sobre nosotros', href: '/#aboutus' },
+  { label: 'Nosotros', href: '/#aboutus' },
   { label: 'Menu', href: '/#menu' },
   { label: 'Reservar', href: '/#reservar' },
   // { label: 'Docs', href: '/documentation' },
@@ -66,14 +66,24 @@ const GalleryImagesData: GalleryImagesType[] = [
     price: 500,
   },
   {
-    src: '/images/Gallery/langosta.webp',
-    name: 'Langosta al ajillo con tostones',
-    price: 800,
+    src: '/images/Gallery/sancocho.webp',
+    name: 'Sanconcho',
+    price: 300,
   },
   {
     src: '/images/Gallery/pinchos-de-pollo-con-vegetales.webp',
     name: 'Brochetas de pollo con vegetales',
     price: 550,
+  },
+  {
+    src: '/images/Gallery/langosta.webp',
+    name: 'Langostas',
+    price: 550,
+  },
+    {
+    src: '/images/Gallery/bizcocho-de chocolate.webp',
+    name: 'Bizcocho de Chocolate',
+    price: 300,
   },
 ]
 
@@ -122,7 +132,6 @@ const FooterLinkData: FooterLinkType[] = [
   {
     section: 'Menu',
     links: [
-      { label: 'Inicio', href: '/' },
       { label: 'Nosotros', href: '/#aboutus' },
       { label: 'Menu', href: '/#menu' },
       { label: 'Reservar', href: '/#reservar' },

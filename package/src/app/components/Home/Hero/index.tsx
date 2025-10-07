@@ -7,13 +7,13 @@ const Hero = () => {
     <section id='home-section' className='bg-gray-50'>
       <div className='container xl:pt-7 pt-16'>
         <div className='grid grid-cols-1 lg:grid-cols-12 items-center'>
-<div className="col-span-12 lg:col-span-6 lg:-mt-16">
+          <div className="col-span-12 lg:col-span-6 lg:-mt-16">
             <h1 className='font-semibold mb-5 text-black lg:text-start text-center sm:leading-20 leading-16'>
               Navegantes Restobar
             </h1>
             <p className='text-black/55 text-lg font-normal mb-10 lg:text-start text-center'>
-              Un espacio donde los sabores del mar se encontran con la calidez local
-              Disfruta de mariscos frescos, coctelería vibrante y un ambiente relajado pero sofisticado.
+              Donde el sabor del mar dominicano se une con la pasión argentina por la parrilla.
+              Disfruta mariscos frescos, cortes Angus, empanadas artesanales y cocteles vibrantes en un ambiente relajado y sofisticado.
             </p>
             <div className='flex flex-col sm:flex-row gap-5 items-center justify-center lg:justify-start'>
               <Link href='/#menu'>

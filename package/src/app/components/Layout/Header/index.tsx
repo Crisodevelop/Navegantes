@@ -97,7 +97,7 @@ const Header: React.FC = () => {
           </nav>
           <div className='flex items-center gap-2 lg:gap-3'>
             <Link
-              href='#'
+              href='tel:+1(809) 505-2208'
               className='text-lg font-medium hover:text-primary hidden xl:block'>
               <Icon
                 icon='solar:phone-bold'
@@ -117,7 +117,7 @@ const Header: React.FC = () => {
                 <div
                   ref={signInRef}
                   className='relative mx-auto w-full max-w-md overflow-hidden rounded-lg px-8 pt-14 pb-8 text-center bg-white'>
-                  <button
+                  {/* <button
                     onClick={() => setIsSignInOpen(false)}
                     className='absolute top-0 right-0 mr-4 mt-8 hover:cursor-pointer'
                     aria-label='Close Sign In Modal'>
@@ -127,8 +127,8 @@ const Header: React.FC = () => {
                       height={24}
                       className='text-black hover:text-primary text-24 inline-block me-2'
                     />
-                  </button>
-                  <Signin />
+                  </button> */}
+                  {/* <Signin /> */}
                 </div>
               </div>
             )}
@@ -201,14 +201,14 @@ const Header: React.FC = () => {
               icon='solar:phone-bold'
               className='text-primary text-3xl lg:text-2xl inline-block me-2'
             />
-            +1(909) 235-9814
+             +1(809) 505-2208
           </Link>
           <nav className='flex flex-col items-start p-4'>
             {headerLink.map((item, index) => (
               <MobileHeaderLink key={index} item={item} />
             ))}
             <div className='mt-4 flex flex-col space-y-4 w-full'>
-              <button
+              {/* <button
                 className='bg-primary text-white px-4 py-2 rounded-lg border  border-primary hover:text-primary hover:bg-transparent hover:cursor-pointer transition duration-300 ease-in-out'
                 onClick={() => {
                   setIsSignInOpen(true)
@@ -223,7 +223,7 @@ const Header: React.FC = () => {
                   setNavbarOpen(false)
                 }}>
                 Sign Up
-              </button>
+              </button> */}
             </div>
           </nav>
         </div>

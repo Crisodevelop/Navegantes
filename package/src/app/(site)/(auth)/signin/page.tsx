@@ -11,7 +11,7 @@ const SigninPage = () => {
     <>
       <Breadcrumb pageName='Sign In Page' />
 
-      <Signin />
+      {/* <Signin /> */}
     </>
   )
 }
