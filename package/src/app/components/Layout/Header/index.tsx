@@ -12,7 +12,6 @@ import { HeaderItem } from '@/app/types/menu'
 
 const Header: React.FC = () => {
   const [headerLink, setHeaderLink] = useState<HeaderItem[]>([])
-
   const [navbarOpen, setNavbarOpen] = useState(false)
   const [sticky, setSticky] = useState(false)
   const [isSignInOpen, setIsSignInOpen] = useState(false)
@@ -42,23 +41,13 @@ const Header: React.FC = () => {
   }
 
   const handleClickOutside = (event: MouseEvent) => {
-    if (
-      signInRef.current &&
-      !signInRef.current.contains(event.target as Node)
-    ) {
+    if (signInRef.current && !signInRef.current.contains(event.target as Node)) {
       setIsSignInOpen(false)
     }
-    if (
-      signUpRef.current &&
-      !signUpRef.current.contains(event.target as Node)
-    ) {
+    if (signUpRef.current && !signUpRef.current.contains(event.target as Node)) {
       setIsSignUpOpen(false)
     }
-    if (
-      mobileMenuRef.current &&
-      !mobileMenuRef.current.contains(event.target as Node) &&
-      navbarOpen
-    ) {
+    if (mobileMenuRef.current && !mobileMenuRef.current.contains(event.target as Node) && navbarOpen) {
       setNavbarOpen(false)
     }
   }
@@ -82,19 +71,17 @@ const Header: React.FC = () => {
 
   return (
     <header
-      className={`fixed top-0 z-40 py-4 w-full transition-all duration-300 ${
-        sticky ? 'shadow-lg bg-white' : 'shadow-none'
-      }`}>
+      className={`fixed top-0 z-40 py-4 w-full transition-all duration-300 ${sticky ? 'shadow-lg bg-white' : 'shadow-none'
+        }`}>
       <div>
         <div className='container flex items-center justify-between'>
-          <div>
-            <Logo />
-          </div>
-          <nav className='hidden lg:flex grow items-center gap-4 xl:gap-6  justify-center'>
+          <Logo />
+          <nav className='hidden lg:flex grow items-center gap-4 xl:gap-6 justify-center'>
             {headerLink.map((item, index) => (
               <HeaderLink key={index} item={item} />
             ))}
           </nav>
+
           <div className='flex items-center gap-2 lg:gap-3'>
             <Link
               href='tel:+1(809) 505-2208'
@@ -105,60 +92,7 @@ const Header: React.FC = () => {
               />
               +1(809) 505-2208
             </Link>
-            {/* <button
-              className='hidden lg:block text-primary duration-300 bg-primary/15 hover:text-white hover:bg-primary font-medium text-lg py-2 px-6 rounded-full hover:cursor-pointer'
-              onClick={() => {
-                setIsSignInOpen(true)
-              }}>
-              Sign In
-            </button> */}
-            {isSignInOpen && (
-              <div className='fixed top-0 left-0 w-full h-full bg-black/50 flex items-center justify-center z-50'>
-                <div
-                  ref={signInRef}
-                  className='relative mx-auto w-full max-w-md overflow-hidden rounded-lg px-8 pt-14 pb-8 text-center bg-white'>
-                  {/* <button
-                    onClick={() => setIsSignInOpen(false)}
-                    className='absolute top-0 right-0 mr-4 mt-8 hover:cursor-pointer'
-                    aria-label='Close Sign In Modal'>
-                    <Icon
-                      icon='material-symbols:close-rounded'
-                      width={24}
-                      height={24}
-                      className='text-black hover:text-primary text-24 inline-block me-2'
-                    />
-                  </button> */}
-                  {/* <Signin /> */}
-                </div>
-              </div>
-            )}
-            {/* <button
-              className='hidden lg:block bg-primary duration-300 text-white hover:bg-primary/15 hover:text-primary font-medium text-lg py-2 px-6 rounded-full hover:cursor-pointer'
-              onClick={() => {
-                setIsSignUpOpen(true)
-              }}>
-              Sign Up
-            </button> */}
-            {isSignUpOpen && (
-              <div className='fixed top-0 left-0 w-full h-full bg-black/50 flex items-center justify-center z-50'>
-                <div
-                  ref={signUpRef}
-                  className='relative mx-auto w-full max-w-md overflow-hidden rounded-lg bg-dark_grey/90 bg-white backdrop-blur-md px-8 pt-14 pb-8 text-center'>
-                  <button
-                    onClick={() => setIsSignUpOpen(false)}
-                    className='absolute top-0 right-0 mr-4 mt-8 hover:cursor-pointer'
-                    aria-label='Close Sign Up Modal'>
-                    <Icon
-                      icon='material-symbols:close-rounded'
-                      width={24}
-                      height={24}
-                      className='text-black hover:text-primary text-24 inline-block me-2'
-                    />
-                  </button>
-                  <SignUp />
-                </div>
-              </div>
-            )}
+
             <button
               onClick={() => setNavbarOpen(!navbarOpen)}
               className='block lg:hidden p-2 rounded-lg'
@@ -169,61 +103,66 @@ const Header: React.FC = () => {
             </button>
           </div>
         </div>
+
         {navbarOpen && (
           <div className='fixed top-0 left-0 w-full h-full bg-black/50 z-40' />
         )}
+
         <div
           ref={mobileMenuRef}
-          className={`lg:hidden fixed top-0 right-0 h-full w-full bg-white shadow-lg transform transition-transform duration-300 max-w-xs ${
-            navbarOpen ? 'translate-x-0' : 'translate-x-full'
-          } z-50`}>
+          className={`lg:hidden fixed top-0 right-0 h-full w-full bg-white shadow-lg transform transition-transform duration-300 max-w-xs ${navbarOpen ? 'translate-x-0' : 'translate-x-full'
+            } z-50`}>
           <div className='flex items-center justify-between gap-2 p-4'>
-            <div>
-              <Logo />
-            </div>
-            {/*  */}
+            <Logo />
             <button
               onClick={() => setNavbarOpen(false)}
-              className="hover:cursor-pointer"
+              className='hover:cursor-pointer'
               aria-label='Close menu Modal'>
               <Icon
                 icon='material-symbols:close-rounded'
                 width={24}
                 height={24}
-                className='text-black hover:text-primary text-24 inline-block me-2'
+                className='text-black hover:text-primary'
               />
             </button>
           </div>
+
           <Link
-            href='#'
+            href='tel:+1(809) 505-2208'
             className='text-lg font-medium hover:text-primary block md:hidden mt-6 p-4'>
             <Icon
               icon='solar:phone-bold'
-              className='text-primary text-3xl lg:text-2xl inline-block me-2'
+              className='text-primary text-3xl inline-block me-2'
             />
-             +1(809) 505-2208
+            +1(809) 505-2208
           </Link>
+
           <nav className='flex flex-col items-start p-4'>
             {headerLink.map((item, index) => (
               <MobileHeaderLink key={index} item={item} />
             ))}
-            <div className='mt-4 flex flex-col space-y-4 w-full'>
-              {/* <button
-                className='bg-primary text-white px-4 py-2 rounded-lg border  border-primary hover:text-primary hover:bg-transparent hover:cursor-pointer transition duration-300 ease-in-out'
-                onClick={() => {
-                  setIsSignInOpen(true)
-                  setNavbarOpen(false)
-                }}>
-                Sign In
-              </button>
-              <button
-                className='bg-primary text-white px-4 py-2 rounded-lg border  border-primary hover:text-primary hover:bg-transparent hover:cursor-pointer transition duration-300 ease-in-out'
-                onClick={() => {
-                  setIsSignUpOpen(true)
-                  setNavbarOpen(false)
-                }}>
-                Sign Up
-              </button> */}
+
+            {/* BOTONES MÓVIL */}
+            <div className="mt-6 flex flex-col gap-3 w-full block md:hidden">
+              {/* Botón WhatsApp */}
+              <Link
+                href="https://wa.link/96w8rb"
+                target="_blank"
+                className="flex items-center justify-center gap-2 bg-gradient-to-r from-primary to-blue-500 text-white font-semibold py-3 rounded-xl shadow-lg transition-all duration-500 hover:scale-[1.05] hover:shadow-[0_0_20px_rgba(59,130,246,0.6)] hover:from-blue-500 hover:to-primary active:scale-95"
+              >
+                <Icon icon="mdi:whatsapp" className="text-2xl" />
+                WhatsApp
+              </Link>
+
+              {/* Botón Instagram */}
+              <Link
+                href="hhttps://www.instagram.com/navegantesrestobar/"
+                target="_blank"
+                className="flex items-center justify-center gap-2 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white font-semibold py-3 rounded-xl shadow-lg transition-all duration-500 hover:scale-[1.05] hover:shadow-[0_0_20px_rgba(255,100,150,0.5)] active:scale-95"
+              >
+                <Icon icon="fa6-brands:instagram" className="text-2xl" />
+                Instagram
+              </Link>
             </div>
           </nav>
         </div>
