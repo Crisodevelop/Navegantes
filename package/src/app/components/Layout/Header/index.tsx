@@ -156,7 +156,7 @@ const Header: React.FC = () => {
 
               {/* Botón Instagram */}
               <Link
-                href="hhttps://www.instagram.com/navegantesrestobar/"
+                href="https://www.instagram.com/navegantesrestobar/"
                 target="_blank"
                 className="flex items-center justify-center gap-2 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white font-semibold py-3 rounded-xl shadow-lg transition-all duration-500 hover:scale-[1.05] hover:shadow-[0_0_20px_rgba(255,100,150,0.5)] active:scale-95"
               >
