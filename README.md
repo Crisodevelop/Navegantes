@@ -1,10 +1,10 @@
-### Chef's Kitchen Free Dsign NextJjs Landing Page Template
+## Chef's Kitchen Free Dsign NextJjs Landing Page Template
 
-🌏[Live Demo](https://www.navegantesrestobar.com)
+🌏[Live Demo](https://www.navegantesrestobar.com) 
 
 ---
 <a target="_blank" href="https://getnextjstemplates.com/products/dsign-newchefs-k-nextjs-banding-page-template">
-  <img src="https://adminmart.github.io/template_api/images/website-template/Chefs-Kitchen-NextJs-Free-Landing-Page%20Template-Tailwind-Headless%20UI.jpg" />
+  <img src="" />
 </a>
 
 
@@ -52,12 +52,12 @@ This project is licensed under the MIT License - see the [LICENSE](https://getne
 
 #### Stay Tuned for Nextjs Templates Updates
 
-[![facebook](https://img.shields.io/badge/facebook-logo?style=for-the-badge&logo=facebook&logoColor=white&color=%230866ff)](https://www.facebook.com) [![instagram](https://img.shields.io/badge/instagram-logo?style=for-the-badge&logo=instagram&logoColor=white&color=%23F35369)](https://www.instagram.com/getnextjstemplates/)  [![youtube](https://img.shields.io/badge/youtube-logo?style=for-the-badge&logo=youtube&logoColor=white&color=%23cc0000)](https://www.youtube.com/@NextjsTemplates)  [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nextjstemplates/)
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](http://github.com/GetNextjsTemplates/)  [![twitter](https://img.shields.io/badge/twitter-x?style=for-the-badge&logo=x&logoColor=white&color=%230f1419) ](https://x.com/Getnextjstemplt)  [
+![facebook](https://img.shields.io/badge/facebook-logo?style=for-the-badge&logo=facebook&logoColor=white&color=%230866ff)](https://www.facebook.com/getnextjstemplates) [![instagram](https://img.shields.io/badge/instagram-logo?style=for-the-badge&logo=instagram&logoColor=white&color=%23F35369)](https://www.instagram.com/getnextjstemplates/)  [![youtube](https://img.shields.io/badge/youtube-logo?style=for-the-badge&logo=youtube&logoColor=white&color=%23cc0000)](https://www.youtube.com/@NextjsTemplates)  [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nextjstemplates/)
 
 ### Follow us for Web Design Updates
 
 [![dribbble](https://img.shields.io/badge/dribbble-logo?style=for-the-badge&logo=dribbble&logoColor=white&color=%23ea64d9)](https://dribbble.com/wrappixel) [![behance](https://img.shields.io/badge/behance-logo?style=for-the-badge&logo=behance&logoColor=white&color=%230057ff)](https://www.behance.net/GetNextjsTemplates/)
-![facebook]([https://img.shields.io/badge/facebook-logo?style=for-the-badge&logo=facebook&logoColor=white&color=%230866ff](https://www.facebook.com/CrisodevelopOficial/)](https://www.facebook.com/getnextjstemplates) [![instagram]([https://img.shields.io/badge/instagram-logo?style=for-the-badge&logo=instagram&logoColor=white&color=%23F35369)](https://www.instagram.com/getnextjstemplates/](https://www.instagram.com/crisodevelop) 
 
 
 #### Spread the Word 📢
