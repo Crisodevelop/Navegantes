@@ -1,6 +1,6 @@
 ### Chef's Kitchen Free Dsign NextJjs Landing Page Template
 
-🌏[Live Demo]([https://www.navegantesrestobar.com]) 
+🌏[Live Demo](https://www.navegantesrestobar.com)
 
 ---
 <a target="_blank" href="https://getnextjstemplates.com/products/dsign-newchefs-k-nextjs-banding-page-template">
@@ -52,6 +52,11 @@ This project is licensed under the MIT License - see the [LICENSE](https://getne
 
 #### Stay Tuned for Nextjs Templates Updates
 
+[![facebook](https://img.shields.io/badge/facebook-logo?style=for-the-badge&logo=facebook&logoColor=white&color=%230866ff)]([https://www.facebook.com/getnextjstemplates](https://www.facebook.com)) [![instagram](https://img.shields.io/badge/instagram-logo?style=for-the-badge&logo=instagram&logoColor=white&color=%23F35369)](https://www.instagram.com/getnextjstemplates/)  [![youtube](https://img.shields.io/badge/youtube-logo?style=for-the-badge&logo=youtube&logoColor=white&color=%23cc0000)](https://www.youtube.com/@NextjsTemplates)  [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nextjstemplates/)
+
+### Follow us for Web Design Updates
+
+[![dribbble](https://img.shields.io/badge/dribbble-logo?style=for-the-badge&logo=dribbble&logoColor=white&color=%23ea64d9)](https://dribbble.com/wrappixel) [![behance](https://img.shields.io/badge/behance-logo?style=for-the-badge&logo=behance&logoColor=white&color=%230057ff)](https://www.behance.net/GetNextjsTemplates/)
 ![facebook]([https://img.shields.io/badge/facebook-logo?style=for-the-badge&logo=facebook&logoColor=white&color=%230866ff](https://www.facebook.com/CrisodevelopOficial/)](https://www.facebook.com/getnextjstemplates) [![instagram]([https://img.shields.io/badge/instagram-logo?style=for-the-badge&logo=instagram&logoColor=white&color=%23F35369)](https://www.instagram.com/getnextjstemplates/](https://www.instagram.com/crisodevelop) 
 
 
@@ -59,6 +64,6 @@ This project is licensed under the MIT License - see the [LICENSE](https://getne
 
 If you find this template helpful, give it a ⭐️ and share it with your fellow developers. 
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/GetNextjsTemplates/chef-kitchen-nextjs-landing-page-template&root-directory=package)
 
 ## Happy coding! 💻
-
