@@ -4,7 +4,7 @@
 
 ---
 <a target="_blank" href="https://github.com/Crisodevelop/Navegantes/blob/f39b7f66195d7f1462040ee1936e0a455bb9d5fa/package/public/images/Gallery/Presentation.png">
-  <img src="" />
+  <img src="https://github.com/Crisodevelop/Navegantes/blob/f39b7f66195d7f1462040ee1936e0a455bb9d5fa/package/public/images/Gallery/Presentation.png" />
 </a>
 
 
