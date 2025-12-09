@@ -3,7 +3,7 @@
 🌏[Live Demo](https://www.navegantesrestobar.com) 
 
 ---
-<a target="_blank" href="https://getnextjstemplates.com/products/dsign-newchefs-k-nextjs-banding-page-template">
+<a target="_blank" href="https://github.com/Crisodevelop/Navegantes/blob/f39b7f66195d7f1462040ee1936e0a455bb9d5fa/package/public/images/Gallery/Presentation.png">
   <img src="" />
 </a>
 
