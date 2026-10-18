@@ -6,7 +6,7 @@ import Expert from '@/app/components/Home/Expert'
 import Gallery from '@/app/components/Home/Gallery'
 import Newsletter from '@/app/components/Home/Newsletter'
 import { Metadata } from 'next'
-import ContactForm from './components/Contact/Form'
+import ContactForm from '@/app/components/Contact/Form'
 export const metadata: Metadata = {
   title: 'Navegantesrestobar',
 }

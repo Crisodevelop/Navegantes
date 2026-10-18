@@ -1,0 +1,52 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DATABASE_URL_UNPOOLED")
+}
+
+model Invoice {
+  id                 String        @id @default(cuid())
+  encf               String        @unique
+  tipoEcf            String
+  fechaEmision       String
+  fechaVencimiento   String?
+  emisorNombre       String
+  emisorRazonSocial  String
+  emisorRnc          String
+  emisorDireccion    String
+  emisorTelefono     String?
+  clienteRazonSocial String?
+  clienteRnc         String?
+  subtotalGravado    Decimal       @db.Decimal(14, 2)
+  subtotalExento     Decimal       @db.Decimal(14, 2)
+  totalItbis         Decimal       @db.Decimal(14, 2)
+  propinaLegal       Decimal       @db.Decimal(14, 2)
+  montoTotal         Decimal       @db.Decimal(14, 2)
+  codigoSeguridad    String
+  fechaFirma         String
+  qrUrl              String
+  rawText            String
+  createdAt          DateTime      @default(now())
+  items              InvoiceItem[]
+}
+
+model InvoiceItem {
+  id          String  @id @default(cuid())
+  invoiceId   String
+  invoice     Invoice @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+  position    Int
+  cantidad    Decimal @db.Decimal(12, 2)
+  descripcion String
+  unidad      String
+  precio      Decimal @db.Decimal(14, 2)
+  itbis       Decimal @db.Decimal(14, 2)
+  descuento   Decimal @db.Decimal(14, 2)
+  recargo     Decimal @db.Decimal(14, 2)
+  valor       Decimal @db.Decimal(14, 2)
+
+  @@index([invoiceId])
+}
